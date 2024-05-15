@@ -1,0 +1,61 @@
+.BigFeature{
+    margin-top: 4rem;
+}
+
+.heading-f{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.mainTxt{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-heading);
+}
+.cards{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 30%;
+}
+.picture{
+    height: 2.7rem;
+}
+.card-h{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--color-heading);
+}
+.caption-h{
+    font-size: 18px;
+    text-align: center;
+    color: var(--color-heading-caption);
+}
+.feature-description>h4
+{
+    font-size: 1rem;
+    color: var(--color-heading);
+}
+.feature-description>h3
+{
+    font-size: 2rem;
+    color: var(--color-heading);
+
+}
+.feature-description>p
+{
+    font-size: 20px;
+    color: var(--color-heading-caption);
+
+}

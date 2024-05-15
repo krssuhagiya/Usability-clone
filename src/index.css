@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap");
+
+:root {
+  --color-heading: #183b56;
+  --color-heading-caption: #577582;
+  --blue-button: #2294ed;
+  --pressed-blue-button: #1d69a3;
+  --banner-color: #4fb3d4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: Poppins, sans-serif;
+}
+
+.btn {
+  font-size: 1.1rem;
+  width: fit-content;
+  padding: 12px 19px;
+  height: 3rem;
+  color: var(--color-heading);
+  font-weight: bold;
+  background-color: white;
+  border: 1.5px solid var(--color-heading-caption);
+  border-radius: 4px;
+}
+.blue-btn{
+  color: white;
+  background-color: var(--blue-button);
+  border: none; 
+  font-size: 1.1rem;
+  width: fit-content;
+  padding: 12px 19px;
+  height: 3rem; 
+  font-weight: bold;  
+  border-radius: 4px;
+  
+}
+.blue-btn:hover{
+  cursor: pointer;
+  border-color: var(--pressed-blue-button);
+  color: white;
+  background-color: var(--pressed-blue-button);
+  transition: 0.4s;
+
+  
+}
+.btn:hover{
+  cursor: pointer;  
+  border-color: var(--blue-button);
+  color: var(--blue-button);
+  transition: 0.4s;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.feature-img img {
+  width: 100%;
+}
+.feature-description {
+  flex-direction: column;
+  align-items: center;
+}

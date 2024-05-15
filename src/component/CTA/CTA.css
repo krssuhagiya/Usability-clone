@@ -1,0 +1,19 @@
+.CTA{
+  margin-top: 6rem;
+}
+
+.cta-section {
+    padding: 70px 20px;
+    background-color: var(--color-heading);
+  }
+  .cta-section-container {
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+  }
+  .cta-section-container>h2{font-size: 2rem;}
+  .cta-section-container>p{font-size: 1.2rem;} 
+.cta-section>button:hover{
+  background-color: var(--pressed-blue-button);
+  border-color: var(--pressed-blue-button);
+}

@@ -1,0 +1,32 @@
+.Footer{
+    background-color: #ebf2fa;
+    padding-top:4rem;
+}
+
+.t-Footer{ 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-bottom: 4rem;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.part-1>img{
+    height: 2.5rem;
+} 
+.b-Footer{
+    background-color: #b9cde4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+.b-Footer>span:hover{
+    cursor: pointer;
+    color: var(--blue-button);
+    transition: 0.4s;
+}
